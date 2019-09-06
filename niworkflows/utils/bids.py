@@ -154,6 +154,7 @@ def collect_data(bids_dir, participant_label, task=None, echo=None,
 
     queries = {
         'fmap': {'datatype': 'fmap'},
+        'dwi': {'datatype': 'dwi', 'suffix': 'dwi'},
         'bold': {'datatype': 'func', 'suffix': 'bold'},
         'sbref': {'datatype': 'func', 'suffix': 'sbref'},
         'flair': {'datatype': 'anat', 'suffix': 'FLAIR'},
